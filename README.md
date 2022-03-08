@@ -7,7 +7,8 @@ To upload or update a package, add at least PKGBUILD and .SRCINFO, then any addi
 
 For example:
 
-makepkg --printsrcinfo > .SRCINFO
-git add PKGBUILD .SRCINFO
-git commit -m "useful commit message"
-git push
+
+    makepkg --printsrcinfo > .SRCINFO
+    git add PKGBUILD .SRCINFO
+    git commit -m "useful commit message"
+    git push
